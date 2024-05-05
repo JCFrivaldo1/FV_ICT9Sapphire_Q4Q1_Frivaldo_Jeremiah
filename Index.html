@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#PFP{ width: 100px; }
+		#Label1{ background-color: #6F8AFC; }
+		body{ background-color:#6F8AFC; }
+		#link1{ color: white; }
+	</style>
+</head>
+<body>
+<center>
+<div id="login-container">
+	<div class="col-md-10">
+		<img id="PFP" src="https://storage.googleapis.com/oa_disk001/obfairview/67/student_files/614/profile_pictures/1691821836-2013.jpg"><br><br>
+
+		<form action="mainpage.html" class="form-warning">
+			<label id="Label1"></label><br>
+			<input type="text" name="form-control" name="Email" id="email">
+			<br>
+			<label id="Label2"></label><br>
+			<input type="text" name="form-control form-success" name="Password" id="password">
+			<br>
+<br>
+			<button type="reset" class="btn btn-success"><a href="mainpage.html" id="link1">login</a></button>
+			<a href="#"><button type="reset" class="btn btn-light">Cancel</button>
+			
+	</form>
+	</div>
+</div>
+</center>
+<script type="text/javascript">
+	document.getElementById("Label1").innerHTML = "Email"
+	document.getElementById("Label2").innerHTML = "Password"
+</script>
+</body>
+</html>
